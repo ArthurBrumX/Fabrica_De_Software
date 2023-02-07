@@ -42,17 +42,17 @@ print ("* Disciplina: {}".format(disciplina))
 
 print ("¨" * 60)
 
-nota_1 = float(input("-Digite a Primeira Nota: "))
+nota_1 = float(input("* Digite a Primeira Nota: "))
     # Nome Da Variável = nota_1.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
 
-nota_2 = float(input("-Digite a Segunda Nota: "))
+nota_2 = float(input("* Digite a Segunda Nota: "))
     # Nome Da Variável = nota_2.
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.
 
-nota_3 = float(input("-Digite a Terceira Nota: "))
+nota_3 = float(input("* Digite a Terceira Nota: "))
     # Nome Da Variável = nota_3
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
@@ -93,31 +93,33 @@ print ("* 1° Bimestre: {}".format(nota_3))
 print ("=" * 60)
 
 if (media_aluno >= 6):
+    # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-    print ("Sua Média Bimestral é: {}".format(media_aluno))
+    print ("-Sua Média Bimestral é: {}".format(media_aluno))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
         # Ex: .format(Nome_da_Variável)
 
-    print ("Aluno Aprovado!")
+    print ("** Aluno Aprovado! **")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
 
     print ("=" * 60)
 
 else:
-    print ("Sua Média Bimestral é: {}".format(media_aluno))
+    print ("-Sua Média Bimestral é: {}".format(media_aluno))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
         # Ex: .format(Nome_da_Variável)
 
-    print ("aluno reprovado!")
+    print ("** aluno reprovado! **")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
 
-    print ("=" * 60)
+print ("=" * 60)
     
 
 print ("*** Relatório Atualizado com Sucesso! ***")
