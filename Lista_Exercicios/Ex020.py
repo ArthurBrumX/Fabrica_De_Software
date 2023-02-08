@@ -25,8 +25,6 @@ if (ano_bi == 0):
     print("o ano é bissexto!")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
-        # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
-            # Ex: .format(Nome_da_Variável).
 
 else:
     # Else = Senão
@@ -35,8 +33,8 @@ else:
     print("O ano não é bissexto!")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
-        # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
-            # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
 
 
 
