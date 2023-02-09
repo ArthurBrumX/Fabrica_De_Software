@@ -8,7 +8,7 @@ print ("*** Ano Bissexto! ***")
 print ("=" * 60)
 
 
-ano = int(input("Digite um ano para verificar se é bissexto: "))
+ano = int(input("* Digite um ano para verificar se é bissexto: "))
     # Nome Da Variável = ano.
     # Tipo Da Variavel = Str (String).
     # Função = Entrada De Dados.
@@ -22,7 +22,9 @@ if (ano_bi == 0):
     # If = Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-    print("o ano é bissexto!")
+    print (" ")
+
+    print("- O Ano Digitado é Bissexto!")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
 
@@ -30,7 +32,9 @@ else:
     # Else = Senão
         # Se Nehuma Das Condição for Atendida, Execute o Codigo Abaixo.
 
-    print("O ano não é bissexto!")
+    print (" ")
+
+    print("- O Ano Digitado Não é Bissexto!")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
 

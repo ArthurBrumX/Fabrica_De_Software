@@ -14,17 +14,17 @@ print ("* Reajuste Salarial *")
 print ("¨" * 60)
 
 
-funcionario = (input("Digite o nome do funcionario: "))
+funcionario = (input("* Digite o Nome Do Funcionario: "))
     # Nome Da Variável = funcionario.
     # Tipo Da Variavel = Str (String).
     # Função = Entrada De Dados.
 
-salario = float(input("Digite o salario de {}: ".format(funcionario)))
+salario = float(input("* Digite o Salário De {}: ".format(funcionario)))
     # Nome Da Variável = salario.
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.
 
-vendas = float(input("Digite qual foi o valor da venda mensal do funcionario {}: ".format(funcionario)))
+vendas = float(input("* Digite qual o valor da venda mensal de {}: ".format(funcionario)))
     # Nome Da Variável = vendas.
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.
@@ -41,7 +41,7 @@ sal_liquido = salario + comissao
 
 print ("=" * 40 )
 
-print ("O salario mensal de {} será de: R${}".format(funcionario, sal_liquido))
+print ("- O Salário Mensal De {} Será De: R${}".format(funcionario, sal_liquido))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
