@@ -9,7 +9,7 @@ print ("*** Granja TecFrango ***")
 
 print ("=" * 60)
 
-print ("*  Financeiro (Chip De Identificação) *")
+print ("*  Controle Automatizado *")
     # Apresentação Ao Usuário.
 
 print ("¨" * 60)
