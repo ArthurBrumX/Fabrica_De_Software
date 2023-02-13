@@ -2,8 +2,8 @@
 
 print ("=" * 40)
 
-print ("*Seja Bem-Vindo Usuário!")
-print ("*Porfavor, complete As Informações a Baixo: ")
+print ("* Seja Bem-Vindo Usuário!")
+print ("* Porfavor, complete As Informações a Baixo: ")
     # Boas vindas ao usuário.
 
 print ("=" * 40)

@@ -11,28 +11,56 @@
 # b) A % de alunos do sexo masculino (em relação ao total de alunos do sexo masculino) cujo status físico seja bom.
 
 
-print ("=" * 60)
+aluno = 0
 
-print ("*** Departamento De Educação Física ***")
-    # Boas-Vindas Ao Usuario.
+total_de_mulheres = 0
 
-print ("=" * 60)
+total_de_mulheres_altas = 0
 
-lista = [123456, "m", 1.85, 1]
+total_de_homens = 0
 
-print (lista[2])
+# ================================
+
+bons = 0
+
+porcentagem =0
+
+# ================================
 
 
+while aluno < 2:
 
+    sexo = input("Digite seu sexo: ")
+    altura = float(input("Digite a altura: "))
+    status = int(input("Digite o status: "))
 
-#sexo = input("Qual o sexo da pessoa [M/F]: ")
-#altura = float(input("Qual sua altura: "))
+    if (sexo == "F") or (sexo == "f") or (sexo == "Feminino") or (sexo == "feminino"):
 
-#if (sexo == "M") or (sexo =="m") or (sexo == "Masculino") or (sexo == "masculino"):
- #   imc = (72.7 * altura) - 58
-  #  print ("Seu peso ideal é de {} kg!".format(imc))
+        if (altura >= 1.70):
 
-#elif (sexo == "F") or (sexo =="f") or (sexo == "Feminino") or (sexo == "Feminino"):
- #   imc = (62.1 * altura) - 44.7
-  #  print ("Seu peso ideal é de {} kg!".format(imc))
+            total_de_mulheres = total_de_mulheres + 1
+            total_de_mulheres_altas = total_de_mulheres_altas + 1
 
+        elif (altura < 1.70):
+            
+            total_de_mulheres = total_de_mulheres + 1
+
+    elif (sexo == "M") or (sexo == "m") or (sexo == "Masculino") or (sexo == "masculino"):
+
+        if (status == 1):
+
+            bons = bons + 1
+
+            porcentagem = total_de_homens * 50 / 100
+
+            total_de_homens = total_de_homens + 1
+
+        elif (status != 1 ):
+
+            total_de_homens = total_de_homens + 1
+
+    aluno = aluno + 1
+
+print ("Total de mulheres altas: {}".format(total_de_mulheres_altas))
+
+print ("Total de homens {}".format(porcentagem))
