@@ -12,127 +12,206 @@
 
 # tipo e quantidade de carne, preço total, tipo de pagamento, valor do desconto e valor a pagar.
 
+print ("=" * 60)
 
-tipo_carne = input("Qual tipo de carne voce irá querer: ")
+print ("*** Hipermercado Tabajara ***")
+    # Boas-Vindas Ao Usuario.
+
+print ("=" * 60)
+
+print ("* Sejá Bem-Vindo! ")
+    # Apresentação Ao Usuário.
+
+print ("=" * 60)
+
+tipo_carne = input("* Qual tipo de carne voçê irá querer: ")
+    # Nome Da Variável = tipo_carne.
+    # Tipo Da Variável = Str (string).
+    # Função = Entrada De Dados.
 
 # =====================================================================================================================================
 
 if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne == "file duplo") or (tipo_carne == "File Duplo"):
+    # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
     kg = float(input("Quantos kilos irá querer: "))
+        # Nome Da Variável = kg.
+        # Tipo Da Variável = Float (Real).
+        # Função = Entrada De Dados.
 
     if (kg <= 5):
+        # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 34.90
 
         cartao = input("A compra será feita através do cartao da loja [S/N]: ")
+            # Nome Da Variável = cartao.
+            # Tipo Da Variável = Str (string).
+            # Função = Entrada De Dados.
 
         if (cartao == "Sim") or (cartao == "sim") or (cartao == "s") or (cartao == "S"):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
 
             print ("O Valor Final a Ser Pago Será De: R${} ".format(desconto))
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
+            # Elif = SeNão se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             print ("O Valor Final a Ser Pago é De: R${}".format(peso))
 
     # ===========================================================================================
 
     elif (kg > 5):
+        # Elif = SeNão se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 35.80
 
         cartao = input("A compra será feita através do cartao da loja [S/N]")
+            # Nome Da Variável = cartao.
+            # Tipo Da Variável = Str (string).
+            # Função = Entrada De Dados.
 
         if (cartao == "Sim") or (cartao == "sim") or (cartao == "s") or (cartao == "S"):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
 
             print ("O valor FInal é de: R${} ".format(desconto))
             
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
+            # Elif = SeNão se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             print ("O valor Final é De: R${} ".format(peso))
 
 # ========================================================================================================================================
 
 elif (tipo_carne == "Alcatra") or (tipo_carne == "alcatra") or (tipo_carne == "ALCATRA"):
+    # Elif = SeNão se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
     kg = float(input("Quantos kilos irá querer: "))
 
     if (kg <= 5):
+        # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 44.90
 
         cartao = input("A compra será feita através do cartao da loja [S/N]")
+            # Nome Da Variável = cartao.
+            # Tipo Da Variável = Str (string).
+            # Função = Entrada De Dados.
 
         if (cartao == "Sim") or (cartao == "sim") or (cartao == "s") or (cartao == "S"):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
 
             print ("O valor FInal é de: R${} ".format(desconto))
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
+            # Elif = SeNão se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             print ("O valor Final é De: R${} ".format(peso))
 
     # ===========================================================================================
 
     elif (kg > 5):
+        # Elif = SeNão se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 46.80
 
         cartao = input("A compra será feita através do cartao da loja [S/N]")
+            # Nome Da Variável = cartao.
+            # Tipo Da Variável = Str (string).
+            # Função = Entrada De Dados.
 
         if (cartao == "Sim") or (cartao == "sim") or (cartao == "s") or (cartao == "S"):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
 
             print ("O valor FInal é de: R${} ".format(desconto))
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
+            # Elif = SeNão se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             print ("O valor Final é De: R${} ".format(peso))
 
 # ========================================================================================================================================
 
 elif (tipo_carne == "Picanha") or (tipo_carne == "picanha") or (tipo_carne == "PICANHA"):
+    # Elif = SeNão se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
     kg = float(input("Quantos kilos irá querer: "))
 
     if (kg <= 5):
+        # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 66.90
 
         cartao = input("A compra será feita através do cartao da loja [S/N]: ")
+            # Nome Da Variável = cartao.
+            # Tipo Da Variável = Str (string).
+            # Função = Entrada De Dados.
 
         if (cartao == "Sim") or (cartao == "sim") or (cartao == "s") or (cartao == "S"):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
 
             print ("O valor FInal é de: R${} ".format(desconto))
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
+            # Elif = SeNão se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             print ("O valor Final é De: R${} ".format(peso))
 
     # ===========================================================================================
 
     elif (kg > 5):
+        # Elif = SeNão se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 67.80
 
         cartao = input("A compra será feita através do cartao da loja [S/N]")
+            # Nome Da Variável = cartao.
+            # Tipo Da Variável = Str (string).
+            # Função = Entrada De Dados.
 
         if (cartao == "Sim") or (cartao == "sim") or (cartao == "s") or (cartao == "S"):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
 
             print ("O valor FInal é de: R${} ".format(desconto))
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
+            # Elif = SeNão se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             print ("O valor Final é De: R${} ".format(peso))
 
 # ========================================================================================================================================
+
+print ("=" * 60)
