@@ -8,7 +8,7 @@ print ("*** Ano Bissexto! ***")
 print ("=" * 60)
 
 
-ano = int(input("* Digite um ano para verificar se é bissexto: "))
+ano = int(input("* Digite um ano para verificar Se é bissexto: "))
     # Nome Da Variável = ano.
     # Tipo Da Variavel = Str (String).
     # Função = Entrada De Dados.

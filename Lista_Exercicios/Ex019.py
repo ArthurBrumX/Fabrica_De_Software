@@ -51,7 +51,7 @@ elif (lado_1 == lado_2) and (lado_2 == lado_1) and (lado_3 != lado_1 and lado_2)
         # Um triangulo Isósceles é formado por apenas 2 lados iguais e o terceiro lado diferente.
 
 elif (lado_1 != lado_2) and (lado_2 != lado_3):
-    # Elif = Se Não Se
+    # Elif = SeNão Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
     print("- Formou Um Triangulo Escaleno!")

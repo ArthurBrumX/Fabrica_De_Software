@@ -195,7 +195,7 @@ while (resposta == "Sim") or (resposta == "sim"):
 
     if (codigo == "203"):
         # If = Se
-        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         carrinho = carrinho + agua_mineral
             # Nome Da Variável = carrinho.

@@ -24,7 +24,7 @@ salario = float(input("* Digite o Salário De {}: ".format(funcionario)))
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.
 
-vendas = float(input("* Digite qual o valor da venda mensal de {}: ".format(funcionario)))
+vendas = float(input("* Digite qual o valor da Venda mensal de {}: ".format(funcionario)))
     # Nome Da Variável = vendas.
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.

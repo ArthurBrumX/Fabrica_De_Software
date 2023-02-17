@@ -39,7 +39,7 @@ c_medias = float(input("* Quantas camisas medias vai querer: "))
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.
 
-c_grandes = float(input("* Quantas camisas grandes vai querer: "))
+c_grandes = float(input("* Quantas camisas Grandes vai querer: "))
     # Nome Da Variável = c_grandes.
     # Tipo Da Variavel = Float (Real).
     # Função = Entrada De Dados.

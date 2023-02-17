@@ -32,7 +32,7 @@ numero = int(input("Qual o numero da residencia: "))
 telefone = int(input("Qual o telefone para contato: "))
     # Nome Da Variável = telefone.
     # Tipo Da Variável = Int (Inteiro).
-        # Ex: 5, 9, -12, -838, 71.
+        # Ex: 5, 9, -12, -838, 71, 80.
     # Função = Entrada De Dados.
 
 print ("=" * 40)

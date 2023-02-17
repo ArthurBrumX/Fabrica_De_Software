@@ -14,7 +14,7 @@ print ("* Mega Promoção De Sanduiches *")
 
 print ("=" * 60)
 
-pergunta = int(input("* Qual a Quantidade De Sanduiches Que Voce Deseja: "))
+pergunta = int(input("* Qual A Quantidade De Sanduiches Que Voce Deseja: "))
     # Nome Da Variável = perguntas.
     # Tipo Da Variavel = Int (Inteiro).
     # Função = Entrada De Dados.
