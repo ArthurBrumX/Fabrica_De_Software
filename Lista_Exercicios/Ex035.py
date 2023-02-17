@@ -35,7 +35,7 @@ if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne
     # If = Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-    kg = float(input("Quantos kilos irá querer: "))
+    kg = float(input("* Quantos kilos irá querer: "))
         # Nome Da Variável = kg.
         # Tipo Da Variável = Float (Real).
         # Função = Entrada De Dados.
@@ -45,8 +45,11 @@ if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 34.90
+            # Nome Da Variável = peso.
+            # Função = Calculo Com Variáveis
+            # Calculo: (Valor da Variável: ) -> kg * 34.90
 
-        cartao = input("A compra será feita através do cartao da loja [S/N]: ")
+        cartao = input("* A compra será feita através do cartao da loja [S/N]: ")
             # Nome Da Variável = cartao.
             # Tipo Da Variável = Str (string).
             # Função = Entrada De Dados.
@@ -56,14 +59,26 @@ if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
+                # Nome Da Variável = desconto.
+                # Função = Calculo Com Variáveis
+                # Calculo: (Valor da Variável: ) -> peso * 5 / 100
 
-            print ("O Valor Final a Ser Pago Será De: R${} ".format(desconto))
+            print ("- O Valor Final a Ser Pago Será De: R${} ".format(desconto))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
+
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("O Valor Final a Ser Pago é De: R${}".format(peso))
+            print ("- O Valor Final a Ser Pago é De: R${}".format(peso))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
     # ===========================================================================================
 
@@ -72,8 +87,11 @@ if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 35.80
+            # Nome Da Variável = peso.
+            # Função = Calculo Com Variáveis
+            # Calculo: (Valor da Variável: ) -> kg * 35.80
 
-        cartao = input("A compra será feita através do cartao da loja [S/N]")
+        cartao = input("* A compra será feita através do cartao da loja [S/N]")
             # Nome Da Variável = cartao.
             # Tipo Da Variável = Str (string).
             # Função = Entrada De Dados.
@@ -83,14 +101,25 @@ if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
+                # Nome Da Variável = desconto.
+                # Função = Calculo Com Variáveis
+                # Calculo: (Valor da Variável: ) -> peso * 5 /100
 
-            print ("O valor FInal é de: R${} ".format(desconto))
+            print ("- O valor FInal é de: R${} ".format(desconto))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
             
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("O valor Final é De: R${} ".format(peso))
+            print ("- O valor Final é De: R${} ".format(peso))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
 # ========================================================================================================================================
 
@@ -98,15 +127,21 @@ elif (tipo_carne == "Alcatra") or (tipo_carne == "alcatra") or (tipo_carne == "A
     # Elif = SeNão se
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-    kg = float(input("Quantos kilos irá querer: "))
+    kg = float(input("* Quantos kilos irá querer: "))
+        # Nome Da Variável = kg.
+        # Tipo Da Variável = Float (Real).
+        # Função = Entrada De Dados.
 
     if (kg <= 5):
         # If = Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 44.90
+            # Nome Da Variável = peso.
+            # Função = Calculo Com Variáveis
+            # Calculo: (Valor da Variável: ) -> kg * 44.90
 
-        cartao = input("A compra será feita através do cartao da loja [S/N]")
+        cartao = input("* A compra será feita através do cartao da loja [S/N]")
             # Nome Da Variável = cartao.
             # Tipo Da Variável = Str (string).
             # Função = Entrada De Dados.
@@ -116,14 +151,26 @@ elif (tipo_carne == "Alcatra") or (tipo_carne == "alcatra") or (tipo_carne == "A
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
+                # Nome Da Variável = desconto.
+                # Função = Calculo Com Variáveis
+                # Calculo: (Valor da Variável: ) -> peso * 5 / 100
 
-            print ("O valor FInal é de: R${} ".format(desconto))
+
+            print ("- O valor FInal é de: R${} ".format(desconto))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("O valor Final é De: R${} ".format(peso))
+            print ("- O valor Final é De: R${} ".format(peso))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
     # ===========================================================================================
 
@@ -132,8 +179,11 @@ elif (tipo_carne == "Alcatra") or (tipo_carne == "alcatra") or (tipo_carne == "A
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 46.80
+            # Nome Da Variável = peso.
+            # Função = Calculo Com Variáveis
+             # Calculo: (Valor da Variável: ) -> kg * 46*80
 
-        cartao = input("A compra será feita através do cartao da loja [S/N]")
+        cartao = input("* A compra será feita através do cartao da loja [S/N]")
             # Nome Da Variável = cartao.
             # Tipo Da Variável = Str (string).
             # Função = Entrada De Dados.
@@ -143,14 +193,25 @@ elif (tipo_carne == "Alcatra") or (tipo_carne == "alcatra") or (tipo_carne == "A
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
+                # Nome Da Variável = desconto.
+                # Função = Calculo Com Variáveis
+                # Calculo: (Valor da Variável: ) -> peso * 5 / 100
 
-            print ("O valor FInal é de: R${} ".format(desconto))
+            print ("- O valor FInal é de: R${} ".format(desconto))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("O valor Final é De: R${} ".format(peso))
+            print ("- O valor Final é De: R${} ".format(peso))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
 # ========================================================================================================================================
 
@@ -158,15 +219,21 @@ elif (tipo_carne == "Picanha") or (tipo_carne == "picanha") or (tipo_carne == "P
     # Elif = SeNão se
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-    kg = float(input("Quantos kilos irá querer: "))
+    kg = float(input("* Quantos kilos irá querer: "))
+        # Nome Da Variável = kg.
+        # Tipo Da Variável = Float (Real).
+        # Função = Entrada De Dados.
 
     if (kg <= 5):
         # If = Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 66.90
+            # Nome Da Variável = peso.
+            # Função = Calculo Com Variáveis
+            # Calculo: (Valor da Variável: ) -> kg * 66.90
 
-        cartao = input("A compra será feita através do cartao da loja [S/N]: ")
+        cartao = input("* A compra será feita através do cartao da loja [S/N]: ")
             # Nome Da Variável = cartao.
             # Tipo Da Variável = Str (string).
             # Função = Entrada De Dados.
@@ -176,14 +243,25 @@ elif (tipo_carne == "Picanha") or (tipo_carne == "picanha") or (tipo_carne == "P
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
+                # Nome Da Variável = desconto.
+                # Função = Calculo Com Variáveis
+                # Calculo: (Valor da Variável: ) -> peso * 5 / 100
 
-            print ("O valor FInal é de: R${} ".format(desconto))
+            print ("- O valor FInal é de: R${} ".format(desconto))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("O valor Final é De: R${} ".format(peso))
+            print ("- O valor Final é De: R${} ".format(peso))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
     # ===========================================================================================
 
@@ -192,8 +270,11 @@ elif (tipo_carne == "Picanha") or (tipo_carne == "picanha") or (tipo_carne == "P
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         peso = kg * 67.80
+            # Nome Da Variável = peso.
+            # Função = Calculo Com Variáveis
+            # Calculo: (Valor da Variável: ) -> kg * 67.80
 
-        cartao = input("A compra será feita através do cartao da loja [S/N]")
+        cartao = input("* A compra será feita através do cartao da loja [S/N]")
             # Nome Da Variável = cartao.
             # Tipo Da Variável = Str (string).
             # Função = Entrada De Dados.
@@ -203,14 +284,25 @@ elif (tipo_carne == "Picanha") or (tipo_carne == "picanha") or (tipo_carne == "P
             # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
             desconto = peso * 5 / 100
+                # Nome Da Variável = desconto.
+                # Função = Calculo Com Variáveis
+                # Calculo: (Valor da Variável: ) -> peso * 5 / 100
 
-            print ("O valor FInal é de: R${} ".format(desconto))
+            print ("- O valor FInal é de: R${} ".format(desconto))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
         elif (cartao == "Não") or (cartao == "nao") or (cartao == "não") or (cartao == "Nao"):
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("O valor Final é De: R${} ".format(peso))
+            print ("- O valor Final é De: R${} ".format(peso))
+                # Função = Saída De Dados.
+                # Apresentando Mensagem Na Tela.
+                # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+                    # Ex: .format(Nome_da_Variável).
 
 # ========================================================================================================================================
 
