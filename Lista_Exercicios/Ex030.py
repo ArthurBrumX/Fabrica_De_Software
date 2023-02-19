@@ -47,7 +47,7 @@ if (peso > 50):
             # Ex: .format(Nome_da_Variável).
 
 
-    print ("- A Multa Refetente Ao Excesso De Peso Será De R${} Reais!!".format(multa))
+    print ("- A Multa Refetente Ao Excesso De Peso Será De R$ {} Reais!!".format(multa))
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
         # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

@@ -46,7 +46,7 @@ elif (periodo == "V") or (periodo == "v"):
 
     print ("=" * 60)
 
-    print ("*** Boa Tarde {}!! ***".format(nome))
+    print ("*** Boa Tarde {} !! ***".format(nome))
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
         # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

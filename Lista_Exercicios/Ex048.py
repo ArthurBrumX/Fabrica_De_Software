@@ -58,7 +58,7 @@ if (opcao == 1):
         # Função = Calculo Com Variáveis
         # Calculo: (Valor da Variável: ) -> proco_produto - (Valor da Variável: ) -> desconto
 
-    print ("- Voce escolheu a Opcao (1) e recebeu o desconto de {}".format(desconto))
+    print ("- Voçê escolheu a Opcao (1) e recebeu o desconto de {}".format(desconto))
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
         # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

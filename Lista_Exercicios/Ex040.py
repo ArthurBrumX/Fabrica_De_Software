@@ -3,7 +3,7 @@
 
 print ("=" * 60)
 
-print ("* Sejá Bem-Vindo Joao! ")
+print ("* Sejá Bem-Vindo Joao!! ")
     # Apresentação Ao Usuário.
 
 print ("=" * 60)

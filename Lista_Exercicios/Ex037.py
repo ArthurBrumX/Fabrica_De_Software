@@ -10,7 +10,7 @@ print ("*** Padaria Super Pão ***")
 
 print ("=" * 60)
 
-print ("* Sejá Bem-Vindo! ")
+print ("* Sejá Bem-Vindo!! ")
     # Apresentação Ao Usuário.
 
 print ("=" * 60)

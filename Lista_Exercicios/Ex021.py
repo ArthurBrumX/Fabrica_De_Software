@@ -36,7 +36,7 @@ comissao = (vendas * 4) / 100
 
 sal_liquido = salario + comissao
     # Nome Da Variável = salario_liquido.
-        # Função = Calculo Com Variáveis
+        # Função = Calculo Com Variáveis.
             # Calculo: (Valor da Variável: ) -> salario + (Valor da Variável: ) -> comissao
 
 print ("=" * 40 )

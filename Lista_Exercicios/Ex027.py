@@ -143,13 +143,13 @@ while aluno < 2:
 
 print ("=" * 60)
 
-print ("- Total de mulheres altas: {}".format(total_de_mulheres_altas))
+print ("- Total de mulheres altas: {}!!".format(total_de_mulheres_altas))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
         # Ex: .format(Nome_da_Variável).
 
-print ("- Total de homens {}".format(porcentagem))
+print ("- Total de homens {}!!".format(porcentagem))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

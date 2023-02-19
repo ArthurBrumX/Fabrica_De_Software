@@ -212,7 +212,7 @@ while (resposta == "Sim") or (resposta == "sim"):
         # Função = Entrada De Dados.
         
 else:
-    print ("- A conta deu no total de R$ {}".format(carrinho))
+    print ("- A conta deu no total de R$ {}!".format(carrinho))
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
         # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

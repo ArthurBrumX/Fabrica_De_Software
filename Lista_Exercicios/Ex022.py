@@ -50,7 +50,7 @@ print ("- O Novo Preço Do Produto {} Será De: R${}".format(produto, novo_preco
 
 print ("=" * 60)
 
-print ("*** Desconto Aplicado Com Sucesso!!! ***")
+print ("*** Desconto Aplicado Com Sucesso!! ***")
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
 

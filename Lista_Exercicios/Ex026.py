@@ -50,7 +50,7 @@ elif (valor_produto >= 50):
         # Função = Calculo Com Variáveis
             # Calculo: (Valor Da Variável: ) -> c_pequenas * (Valor Da Variável: ) -> p
 
-    print ("- O Valor Do Produto Passa-rá a Ser De R${} Reais!!".format(total))
+    print ("- O Valor Do Produto Passa-rá a Ser De R$ {} Reais!!".format(total))
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
         # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

@@ -42,7 +42,7 @@ total = n_galinhas * galinha
 
 print ("=" * 60)
 
-print ("O Total Gasto No Galinheiro Será De: R${}!".format(total))
+print ("O Total Gasto No Galinheiro Será De: R$ {}!!".format(total))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

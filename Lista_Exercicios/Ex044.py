@@ -7,7 +7,7 @@ print ("*** Tabuada!! ***")
 
 print ("=" * 60)
 
-numero = int(input("* Digite um numero pra ver sua tabuada: "))
+numero = int(input("* Digite Um Número Pra Ver Sua Tabuada: "))
     # Nome Da Variável = numero.
     # Tipo Da Variável = int (Inteiro).
     # Função = Entrada De Dados.

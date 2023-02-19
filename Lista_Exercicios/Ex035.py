@@ -74,7 +74,7 @@ if (tipo_carne == "Filé Duplo") or (tipo_carne == "filé Duplo") or (tipo_carne
             # Elif = SeNão se
                 # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-            print ("- O Valor Final a Ser Pago é De: R${}".format(peso))
+            print ("- O Valor Final a Ser Pago é De: R$ {}".format(peso))
                 # Função = Saída De Dados.
                 # Apresentando Mensagem Na Tela.
                 # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

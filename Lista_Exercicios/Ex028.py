@@ -12,7 +12,7 @@ print ("*** Calculo! ***")
 
 print ("=" * 60)
 
-print ("* Olá Usuário, Vamos Realizar Alguns Calculos!! *")
+print ("* Olá Usuário, Vamos Realizar Alguns Calculos!!! *")
 print ("* Preencha Os Campos Abaixo Para Descobri-los! * ")
     # Apresentação Ao Usuário.
 

@@ -25,17 +25,17 @@ l_garrafa_1 = 2000
     # Tipo Da Variavel = Int (Inteiro).
     # Função = Atribuição De Valor.
 
-quant_lata = float(input("* Quantas lata de 350ml vai querer: "))
+quant_lata = float(input("* Quantas Lata de 350ml Vai Querer: "))
     # Nome Da Variável = quant_lata.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
 
-quant_garrafa = float(input("* Quantas garrafas de 600ml vai querer: "))
+quant_garrafa = float(input("* Quantas Garrafas De 600ml Vai Querer: "))
     # Nome Da Variável = quant_garrafa.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
 
-quant_garrafa_1 = float(input("* Quantas garrafas de 2 litros vai querer: "))
+quant_garrafa_1 = float(input("* Quantas Garrafas De 2 Litros Vai Querer: "))
     # Nome Da Variável = quant_garrafa_1.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.

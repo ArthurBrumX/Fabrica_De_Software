@@ -4,12 +4,12 @@
 
 print ("=" * 60)
 
-print ("* Sejá Bem-Vindo! ")
+print ("* Sejá Bem-Vindo!! ")
     # Apresentação Ao Usuário.
 
 print ("=" * 60)
 
-valor_conta = float(input("* Digite o valor total da conta: "))
+valor_conta = float(input("* Digite o Valor Total Da Conta: "))
     # Nome Da Variável = valor_conta.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.

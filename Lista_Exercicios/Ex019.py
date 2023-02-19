@@ -32,7 +32,7 @@ if (lado_1 == lado_2) and (lado_2 == lado_3):
     # If = Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-    print("- Formou Um Triangulo Equilátero!")
+    print("- Formou Um Triângulo Equilátero!")
         # Função = Saída De Dados.
         # Apresentando Mensagem Na Tela.
         # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}

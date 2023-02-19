@@ -37,7 +37,7 @@ telefone = int(input("Qual o telefone para contato: "))
 
 print ("=" * 40)
 
-print ("Voçê se chama {}, é do sexo {}, mora na rua {} {}°, e o seu telefone pra contato é o {}!".format(nome, sexo, rua, numero, telefone))
+print ("Voçê se chama {}, é do sexo {}, mora na rua {} {}°, e o seu Telefone pra contato é o {}!".format(nome, sexo, rua, numero, telefone))
     # Apresentado As Informações Na Tela Para o Usuário Confirmar.
     # .format = formata o texto, alocando o valor de uma varivel no espaço: {}
         # Ex: .format(Nome_da_Variavel)

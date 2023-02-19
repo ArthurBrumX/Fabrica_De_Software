@@ -7,12 +7,12 @@ print ("*** Seja Bem-Vindo! ***")
 
 print ("=" * 60)
 
-nome = input("* Digite o seu nome: ")
+nome = input("* Digite o Seu Nome: ")
     # Nome Da Variável = nome.
     # Tipo Da Variável = Str (String).
     # Função = Entrada De Dados.
 
-sexo = input("* Digite o seu sexo: ")
+sexo = input("* Digite o Seu Sexo: ")
     # Nome Da Variável = sexo.
     # Tipo Da Variável = Str (String).
     # Função = Entrada De Dados.

@@ -14,12 +14,12 @@ print ("* Sejá Bem-Vindo ")
 
 print ("=" * 60)
 
-ano_nasc = int(input("Em quem ano voce nasceu: "))
+ano_nasc = int(input("* Em Quem Ano Voce Nasceu: "))
     # Nome Da Variável = valor_conta.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
 
-ano_atual = int(input("Em que ano nós estamos: "))
+ano_atual = int(input("* Em Que Ano Nós Estamos: "))
     # Nome Da Variável = valor_conta.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
@@ -44,25 +44,25 @@ dias = idade * 365
     # Função = Calculo Com Variáveis
     # Calculo: (Valor da Variável: ) -> idade * 365
 
-print ("Voce tem {} anos".format(idade))
+print ("- Voce tem {} anos".format(idade))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
         # Ex: .format(Nome_da_Variável).
 
-print ("Voce tem {} meses de vida".format(mes))
+print ("- Voce tem {} meses de vida".format(mes))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
         # Ex: .format(Nome_da_Variável).
 
-print ("Voce tem {} dias de Vida".format(dias))
+print ("- Voce tem {} dias de Vida".format(dias))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
         # Ex: .format(Nome_da_Variável).
 
-print ("voce tem {} semanas de vida".format(semanas))
+print ("- voce tem {} semanas de vida".format(semanas))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

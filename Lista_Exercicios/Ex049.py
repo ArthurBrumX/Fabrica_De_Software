@@ -13,6 +13,9 @@ print ("* Sejá Bem-Vindo! ")
 print ("=" * 60)
 
 dolar = 5.17
+    # Nome Da Variável = dolar.
+    # Tipo Da Variavel = Int (Inteiro).
+    # Função = Atribuição De Valor.
 
 real = float(input("* Quantos reais seram convertidos: "))
     # Nome Da Variável = preco_produto.

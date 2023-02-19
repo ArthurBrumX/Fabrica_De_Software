@@ -8,12 +8,12 @@ print ("*** Seja Bem-Vindo! ***")
 
 print ("=" * 60)
 
-valor_1 = int(input("* Digite um valor inteiro: "))
+valor_1 = int(input("* Digite Um Valor Inteiro: "))
     # Nome Da Variável = valor_1.
     # Tipo Da Variável = Int (Inteiro).
     # Função = Entrada De Dados.
 
-valor_2 = int(input("* Digite um valor inteiro: "))
+valor_2 = int(input("* Digite Um Valor Inteiro: "))
     # Nome Da Variável = valor_2.
     # Tipo Da Variável = Int (Inteiro).
     # Função = Entrada De Dados.

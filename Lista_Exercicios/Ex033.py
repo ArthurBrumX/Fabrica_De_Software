@@ -85,7 +85,7 @@ if (opcao == "Adição") or (opcao == "Adicao") or (opcao == "adição") or (opc
         # If = Se
         # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-        print ("- O Número {} é Positivo!!".format(soma))
+        print ("- O Número {} é Positivo !!".format(soma))
             # Função = Saída De Dados.
             # Apresentando Mensagem Na Tela.
             # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

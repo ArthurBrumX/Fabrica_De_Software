@@ -82,7 +82,7 @@ total_compra = total_p + total_m + total_g
         # Função = Calculo Com Variáveis
             # Calculo: (Valor Da Variável: ) -> total_p + (Valor Da Variável: ) -> total_m + (Valor Da Variável: ) -> total_g
 
-print ("- A Sua Compra Foi No Total De R${} Reais!".format(total_compra))
+print ("- A Sua Compra Foi No Total De R${} Reais!!".format(total_compra))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

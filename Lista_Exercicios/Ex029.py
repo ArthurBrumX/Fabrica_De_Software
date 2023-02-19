@@ -69,7 +69,7 @@ elif (sexo == "F") or (sexo == "f") or (sexo == "Feminino") or (sexo == "feminin
 
 print ("=" * 60)
 
-print ("*** Fim Do Calculo!! ***")
+print ("*** Fim Do Calculo!!! ***")
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
 
