@@ -10,7 +10,7 @@
 
 print ("=" * 60)
 
-print ("*** Taboada ***")
+print ("*** Tabuada ***")
     # Boas-Vindas Ao Usuario.
 
 print ("*** Sejá Bem-Vindo! ***")
