@@ -32,6 +32,8 @@ print (' '.join(str(n) for n in range (1,21)))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     #.join = vai iterar sobre os elementos criando uma string única, e o print vai imprimir essa string.
+    # ou
+        # print (n, ' ', end = ' ')
 
 print ("=" * 60)
 
