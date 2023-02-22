@@ -21,6 +21,8 @@ soma = 0
     # Função = Atribuição De Valor.
 
 while (numero < 5):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
 
     n1 = float(input("* Digite Um numero: "))
         # Nome Da Variável = senha.

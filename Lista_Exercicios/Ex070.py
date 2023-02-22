@@ -15,127 +15,339 @@
 # Melhor salto: 6.5 m
 # Pior salto: 5.3 m
 
+print ("=" * 60)
+
+print ("*** Competição De Salto Em Distância ***")
+    # Boas-Vindas Ao Usuario.
+
+print ("*** Sejá Bem-Vindo! ***")
+    # Apresentação Ao Usuário.
+
+print ("=" * 60)
+
 contador = 0
+    # Nome Da Variável = contador.
+    # Tipo Da Variavel = Int (Inteiro).
+    # Função = Atribuição De Valor.
 
 melhor_salto = 0
+    # Nome Da Variável = melhor_salto.
+    # Tipo Da Variavel = Int (Inteiro).
+    # Função = Atribuição De Valor.
 
-pior_salto = 0 
+pior_salto = 0
+    # Nome Da Variável = pior_salto.
+    # Tipo Da Variavel = Int (Inteiro).
+    # Função = Atribuição De Valor.
 
-cont_salto = 0
+nome = input("* Digte o Nome Do Atleta: ")
+    # Nome Da Variável = nome.
+    # Tipo Da Variavel = Str (String).
+    # Função = Atribuição De Valor.
 
-primeiro = 0
+if (nome == " "):
+    # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
-segundo = 0
+    nome = input("* Digte o Nome Do Atleta:")
+        # Nome Da Variável = nome.
+        # Tipo Da Variavel = Str (String).
+        # Função = Atribuição De Valor.
 
-terceiro = 0
+print ("=" * 60)
 
-quarto = 0
-
-quinto = 0
-
-nome = input("- Informe o Nome Do Atleta: ")
-
-while (cont_salto < 5):
-
-    cont_salto = cont_salto + 1
-
-    salto = float(input("- Informe a Distancia Do Salto: "))
+while (contador != 1):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
+    
+    primeiro = float(input("* Digite A Distancia Do Primeiro Salto: "))
+        # Nome Da Variável = primeiro.
+        # Tipo Da Variável = float (Real).
+        # Função = Entrada De Dados.
 
     contador = contador + 1
+        # Nome Da Variável = contador.
+        # Função = Calculo Com Variáveis
+        # Calculo: (Valor da Variável: ) -> contador + 1
 
-    if (contador == 1):
+    if (contador == 1 ):
+        # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+       
+       melhor_salto = primeiro
+            # Nome Da Variável = melhor_salto.
+            # Tipo Da Variavel = float (Real).
+            # Função = Atribuição De Valor.
 
-        melhor_salto = salto
-
-        pior_salto = salto
+       pior_salto = primeiro
+            # Nome Da Variável = pior_salto.
+            # Tipo Da Variavel = float (Real).
+            # Função = Atribuição De Valor.
 
     else:
-
-        if (salto > melhor_salto):
-
-            melhor_salto = salto
         
-        if (salto < pior_salto):
-
-            pior_salto = salto
-
-media = segundo + terceiro + quarto / 5
-
-print ("- Melhor Salto: {}".format(melhor_salto))
-
-print ("- Pior Salto: {}".format(pior_salto))
-
-print (salto)
-
-print (media)
-
-print (contador)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-"""nome = input("- Informe o Nome Do Atleta: ")
-
-primeiro = float(input("- Informe a Distancia Do Primeiro Salto: "))
-segundo = float(input("- Informe a Distancia Do Segundo Salto: "))
-terceiro = float(input("- Informe a Distancia Do Terceiro Salto: "))
-quarto = float(input("- Informe a Distancia Do Quarto Salto: "))
-quinto = float(input("- Informe a Distancia Do Quinto Salto: "))
-
-media = segundo + terceiro + quarto / 5"""
-
-
-
-
-
+        if primeiro > melhor_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            melhor_salto = primeiro
+                # Nome Da Variável = melhor_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+        if primeiro < pior_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            pior_salto = primeiro
+                # Nome Da Variável = pior_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+print ("O Primeiro Salto é De: {} m".format(primeiro))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+
+while (contador != 2):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
+
+    segundo = float(input("* Digite a Distancia Do Segundo Salto: "))
+        # Nome Da Variável = segundo.
+        # Tipo Da Variável = float (Real).
+        # Função = Entrada De Dados.
+
+    contador = contador + 1
+        # Nome Da Variável = contador.
+        # Função = Calculo Com Variáveis
+        # Calculo: (Valor da Variável: ) -> contador + 1
+
+    if (contador == 2):
+        # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+        if segundo > melhor_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            melhor_salto = segundo
+                # Nome Da Variável = melhor_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+        if segundo < pior_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            pior_salto = segundo
+                # Nome Da Variável = pior_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.   
+
+print ("O Segundo Salto é De: {} m".format(segundo))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+
+while (contador != 3):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
+
+    terceiro = float(input("* Digite a Distancia Do Terceiro Salto: "))
+        # Nome Da Variável = terceiro.
+        # Tipo Da Variável = float (Real).
+        # Função = Entrada De Dados.
+
+    contador = contador + 1
+        # Nome Da Variável = contador.
+        # Função = Calculo Com Variáveis
+        # Calculo: (Valor da Variável: ) -> contador + 1
+
+    if (contador == 3):
+        # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+        if terceiro > melhor_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            melhor_salto = terceiro
+                # Nome Da Variável = melhor_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+
+        if terceiro < pior_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            pior_salto = terceiro
+                # Nome Da Variável = pior_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+print ("O Terceiro Salto é De: {} m".format(terceiro))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+
+while (contador != 4):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
+
+    quarto = float(input("* Digite a Distancia Do Quarto Salto: "))
+        # Nome Da Variável = quarto.
+        # Tipo Da Variável = float (Real).
+        # Função = Entrada De Dados.
+
+    contador = contador + 1
+        # Nome Da Variável = contador.
+        # Função = Calculo Com Variáveis
+        # Calculo: (Valor da Variável: ) -> contador + 1
+
+    if (contador == 4):
+        # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+        if quarto > melhor_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            melhor_salto = quarto
+                # Nome Da Variável = melhor_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+        if quarto < pior_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            pior_salto = quarto
+                # Nome Da Variável = pior_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+print ("O Quarto Salto é De: {} m".format(quarto))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+
+while (contador != 5):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
+
+    quinto = float(input("* Digite a Distancia Do Quinto Salto: "))
+        # Nome Da Variável = quinto.
+        # Tipo Da Variável = float (Real).
+        # Função = Entrada De Dados.
+
+    contador = contador + 1
+        # Nome Da Variável = contador.
+        # Função = Calculo Com Variáveis
+        # Calculo: (Valor da Variável: ) -> contador + 1
+
+    if (contador == 5):
+        # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+        if quinto > melhor_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            melhor_salto = quinto
+                # Nome Da Variável = melhor_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+        if quinto < pior_salto:
+            # If = Se
+                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            pior_salto = quinto
+                # Nome Da Variável = pior_salto.
+                # Tipo Da Variavel = float (Real).
+                # Função = Atribuição De Valor.
+
+media = (primeiro + segundo + terceiro + quarto + quinto) - melhor_salto - pior_salto
+    # Nome Da Variável = media.
+    # Função = Calculo Com Variáveis
+    # Calculo:(Valor da Variável)-> primeiro + (Valor da Variável)-> segundo + (Valor da Variável)-> terceiro + (Valor da Variável)-> quarto + (Valor da Variável)-> quinto
+        # calculo: - (Valor da Variável)-> melhor_salto - (Valor da Variável)-> pior_salto
+
+print ("O Quinto Salto é De: {} m".format(quinto))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+
+
+print ("Atleta: {} \n".format(nome))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+
+print ("Primeiro Salto: {} m \n".format(primeiro))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("Segundo Salto: {} m \n".format(segundo))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("Terceiro Salto: {} m \n".format(terceiro))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("Quarto Salto: {} m \n".format(quarto))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("Quinto Salto: {} m \n".format(quinto))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+
+print("Melhor Salto: {} m \n".format(melhor_salto))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print("Pior Salto: {} m".format(pior_salto))
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+    # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
+        # Ex: .format(Nome_da_Variável).
+
+print ("=" * 60)
+               
 
 
