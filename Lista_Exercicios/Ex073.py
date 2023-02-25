@@ -96,6 +96,8 @@ print ("- [6] --- BRANCO \n")
 print ("=" * 60)
 
 while (contador < 10):
+    # While = Enquanto
+        # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
 
     voto = int(input("- Digite o Número Do Seu Candidato: "))  
         # Nome Da Variável = voto.
