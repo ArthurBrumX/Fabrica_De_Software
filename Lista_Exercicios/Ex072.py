@@ -128,7 +128,7 @@ while (contador != 2):
 
     if (contador == 2):
         # If = Se
-                # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
 
         if nota_2 > melhor_nota:
             # If = Se

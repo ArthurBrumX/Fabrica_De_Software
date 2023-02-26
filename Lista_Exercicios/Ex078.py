@@ -11,7 +11,7 @@ print ("*** Sejá Bem-Vindo! ***")
 print ("=" * 60)
 
 impar = []
-    # Vetor
+    #Vetor
         # Comando para armazenar informacoes como uma lista
 
 par = []
@@ -24,7 +24,7 @@ numero = []
 
 for c in range (0, 5):
 
-    digito = int(input("Digite Um Numero Inteiro: "))
+    digito = int(input("* Digite Um Numero Inteiro: "))
         # Nome Da Variável = primeiro.
         # Tipo Da Variável = float (Real).
         # Função = Entrada De Dados.
@@ -35,6 +35,7 @@ for c in range (0, 5):
         # Calculo: (Valor da Variável: ) -> contvogal + 1
 
     numero.append(digito)
+        # Append = Acrecentar
 
     if (divisao == 0):
         # If = Se
@@ -52,19 +53,19 @@ for c in range (0, 5):
 
 print ("=" * 60)
 
-print ("O Numeros Digitados Impares o: {}".format(impar))
+print ("- O Numeros Digitados Impares o: {}".format(impar))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
         # Ex: .format(Nome_da_Variável).
 
-print ("O Numeros Digitados pares São: {}".format(par))
+print ("- O Numeros Digitados pares São: {}".format(par))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.
         # Ex: .format(Nome_da_Variável).
 
-print ("O Numeros Digitados Sao: {}".format(numero))
+print ("- O Numeros Digitados Sao: {}".format(numero))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}.

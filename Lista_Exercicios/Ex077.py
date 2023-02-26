@@ -32,7 +32,7 @@ while x <= 10:
     # While = Enquanto
         # Enquanto Essa Condição For Verdadeira Execute o Código a Baixo.
 
-    entrada = input("Caractere %d: " %x)
+    entrada = input("* Caractere %d: " %x)
         # Nome Da Variável = entrada.
         # Tipo Da Variavel = Str (String).
         # Função = Atribuição De Valor.
@@ -45,6 +45,7 @@ while x <= 10:
         # Calculo: (Valor da Variável: ) -> x + 1
 
     caract.append(entrada)
+        # Append = Acrecentar
 
     if entrada in vogais:
 
@@ -53,7 +54,7 @@ while x <= 10:
             # Função = Calculo Com Variáveis
             # Calculo: (Valor da Variável: ) -> contvogal + 1
 
-print ("Consoantes: ",(len (caract)) - contvogal)
+print ("- Consoantes: ",(len (caract)) - contvogal)
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
 
