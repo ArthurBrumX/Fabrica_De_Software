@@ -14,26 +14,94 @@
 
 # Desafio: Crie uma fórmula para chegar na posição da lista a partir do salário, sem fazer vários ifs aninhados.
 
-faixas_salarios = [[200,299],[300,399],[400,499],[500,599],[600,699], [700,799],[800,899],[900,999]]
-quantidades = [0,0,0,0,0,0,0,0,0]
+print ("=" * 60)
+
+print ("*** Casa Das Cores!! ***")
+    # Boas-Vindas Ao Usuario.
+
+print ("*** Sejá Bem-Vindo! ***")
+    # Apresentação Ao Usuário.
+
+print ("=" * 60)
+
+salarios = [[200,299],[300,399],[400,499],[500,599],[600,699], [700,799],[800,899],[900,999]]
+    # Vetor
+        # Comando para armazenar informacoes como uma lista
+
+quantidade = [0,0,0,0,0,0,0,0,0]
+    # Vetor
+        # Comando para armazenar informacoes como uma lista
 
 salarios = []
-valor_vendas = True
-while valor_vendas != 0:
-    valor_vendas = float(input("\nDigite a valor das vendas: $ "))
-    if valor_vendas == 0:
+    # Vetor
+        # Comando para armazenar informacoes como uma lista
+
+venda_mensal = True
+    # Nome Da Variável = contador_1.
+    # Tipo Da Variavel = Int (Inteiro).
+    # Função = Atribuição De Valor.
+
+while (venda_mensal != 0):
+    # While = Enquanto
+
+    venda_mensal = float(input("Digite a valor das vendas: $ "))
+        # Nome Da Variável = venda_mensal.
+        # Tipo Da Variavel = float (real).
+        # Função = Entrada De Dados.
+
+    if (venda_mensal == 0):
+        # If = Se
+        # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
         break
+            # Break = Quebre o codigo.
+
     else:
-        salario = (valor_vendas * 0.09) + 200
+        # Else = SeNão
+            # Se Nenhuma Condição for Atendida, Execute o Codigo Abaixo.
+
+        salario = (venda_mensal * 0.09) + 200
+            # Nome Da Variável = salario.
+            # Função = Calculo Com Variáveis
+            # Calculo: (Valor da Variável: ) -> dvenda_mensal * 0.09 + 200
+
         print(f'R$ {salario:.2f}')
-        if salario < 1000:
-            for i in range(len(faixas_salarios)):
-                if salario >= faixas_salarios[i][0] and salario < faixas_salarios[i][1]:
-                    quantidades[i] += 1
+            # Função = Saída De Dados.
+            # Apresentando Mensagem Na Tela.
+
+        if (salario < 1000):
+            # If = Se
+            # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+            for i in range(len(salarios)):
+                # For = Para
+
+                if (salario >= salarios[i][0] and salario < salarios[i][1]):
+                    # If = Se
+                    # Se Essa Condição for Atendida, Execute o Codigo Abaixo.
+
+                    quantidade[i] += 1
         else:
-            quantidades[8] += 1
-print('\n' * 3)
-for i in range(len(faixas_salarios)):
-    print('Faixas de Salários:')
-    print(f'Entre $ {faixas_salarios[i][0]:.2f} e R$ {faixas_salarios[i][1]:.2f}: {quantidades[i]}')
-print(f'Salarios maiores que $1000: {quantidades[8]}')
+            # Else = SeNão
+            # Se Nenhuma Condição for Atendida, Execute o Codigo Abaixo.
+
+            quantidade[8] += 1
+
+print("=" * 60)
+
+for i in range(len(salarios)):
+    # For = Para
+
+    print("Faixas de Salários:")
+        # Função = Saída De Dados.
+        # Apresentando Mensagem Na Tela.
+
+    print(f"Entre $ {salarios[i][0]:.2f} e R$ {salarios[i][1]:.2f}: {quantidade[i]}")
+        # Função = Saída De Dados.
+        # Apresentando Mensagem Na Tela.
+
+print(f'Salarios maiores que $1000: {quantidade[8]}')
+    # Função = Saída De Dados.
+    # Apresentando Mensagem Na Tela.
+
+print ("=" * 60)
